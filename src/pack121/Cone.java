@@ -1,6 +1,9 @@
 package pack121;
 import pack12.*;
 public class Cone extends ThreeDimShape {
+    static{
+        System.out.println("INSIDE CONE");
+    }
     public Cone(double edge, double h, double radius){
         length=edge;
         breadth=radius;
