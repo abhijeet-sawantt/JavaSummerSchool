@@ -12,4 +12,7 @@ public class Cone extends ThreeDimShape {
     public double SurfaceArea(){
         return (3.14*breadth*(breadth+length)) ;
     }
+    public String to_string(){
+        return "to_string of Cone";
+    }
 }

@@ -46,5 +46,7 @@ class ShapeDemo{
         Cone co1=new Cone(1,1,1);
         System.out.println("Volume= " + co1.Volume());
         System.out.println("Surface Area= " + co1.SurfaceArea());
+        System.out.println(co1.to_string());
+        System.out.println("Hash Code of the object of Cone: "+co1);
     }
 }
